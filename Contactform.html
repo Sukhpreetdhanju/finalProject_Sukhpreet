@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contactform.css">
+    <link rel="stylesheet" href="sass.css">
+    <script src="form.js" defer></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <!-- Header section with the main heading -->
+    <header class="header">
+        <h1>Contact Us</h1>
+    </header>
+
+    <!-- Form section with input fields and submit button -->
+    <form action="https://formspree.io/f/xqkvryqg" method="post">
+        <!-- Input field for the first name -->
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstname">
+
+        <!-- Input field for the last name -->
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName">
+
+        <!-- Input field for the email address -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <!-- Input field for the date with a placeholder -->
+        <label for="date">Date:</label>
+        <input type="text" id="date" name="date" placeholder="dd/mm/yy">
+
+        <!-- Input field for the phone number -->
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+
+        <!-- Textarea for the message -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <!-- Submit button for the form -->
+        <input type="submit" value="Submit" class="btn">
+    </form>
+</body>
+</html>

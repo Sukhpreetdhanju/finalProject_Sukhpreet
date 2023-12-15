@@ -1,0 +1,29 @@
+$menucolor:#FF9800;
+$menuhover:#ffffff;
+$border:dashed;
+$btntext:uppercase;
+$btnposition:relative;
+$btnabsolute:absolute;
+$btnbackground:red;
+.header .nav ul li a{
+    color: $menucolor;
+
+}
+.header .nav ul li a:hover{
+    color: $menuhover;
+}
+.btn{
+    text-transform: $btntext;
+    position: $btnposition; 
+    background-color: $btnbackground;
+  }
+.btn::after{
+      content: "";
+      position: $btnabsolute;
+ 
+      
+  }  
+  form{
+    border:$border;
+  }
+

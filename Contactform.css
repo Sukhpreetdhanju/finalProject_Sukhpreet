@@ -1,0 +1,96 @@
+/* Global styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Styling for the main heading */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Styling for the contact form */
+#contactForm {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for form labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Styling for form input fields and textarea */
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styling for the form submit button */
+input[type="submit"] {
+    
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Animation for the entire webpage */
+body {
+    opacity: 0; /* Set initial opacity to 0 */
+    animation: fadeIn 1s ease-in-out forwards; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Transition effect for the form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+
+/* Animation for the header text color change */
+.header h1 {
+    color: #333; 
+    animation: colorChange 4s infinite alternate; 
+}
+
+@keyframes colorChange {
+    0% {
+        color: #333;
+    }
+    50% {
+        color: #4CAF50; /* Change color midway through the animation */
+    }
+    100% {
+        color: #333;
+    }
+}
+btn{
+    background-color: #4CAF50; 
+}
